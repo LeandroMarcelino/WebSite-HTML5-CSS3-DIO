@@ -10,11 +10,16 @@ body {
     border-radius: 50%;
     
 }
+.photo, .slogan{
+    display:inline-block;
+    
+  }
+ 
 
-#title, .subtitle, .post_title {
+#title, .subtitle, .post_title, .slogan {
     color: #505050;
 }
-#title {
+#title, .slogan {
     font-size: 40px;
     text-transform: uppercase;
 }
@@ -45,6 +50,7 @@ a {
 .post_image {
     margin-bottom: 15px;
     width: 100%;
+    
 }
 
 
